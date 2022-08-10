@@ -40,7 +40,7 @@ const Trending = () => {
             title = {trending.title || trending.name}     //for movie its 'title' and for series its 'name' 
             date = {trending.first_air_date || trending.release_date}   //for movie its 'first_air_date' and for series its 'release_date' 
             media_type = {trending.media_type}
-            vote_average = {trending.vote_average}
+            vote_average = {Math.round(trending.vote_average)}
             /> )}
         </div> 
         <Pagination setPage = {setPage}/>
