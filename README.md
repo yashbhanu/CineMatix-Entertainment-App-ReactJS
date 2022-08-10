@@ -7,3 +7,4 @@
  - Material UI
  - Movie Database API
 
+## DEMO - [LIVE DEMO](https://cinematix-entertainment.netlify.app/movies)
