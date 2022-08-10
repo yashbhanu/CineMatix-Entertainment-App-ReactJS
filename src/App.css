@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+.App {
+    min-height:100vh;
+    background-color: white;
+    color: #28282B;
+    padding-top: 130px;
+    padding-bottom:70px;
+}
+
+@media (max-width: 700px) {
+    .app {
+        padding-top: 70px;
+    }
+}
+
+.pageTitle {
+    text-transform: uppercase;
+    display: flex;
+    justify-content:center;
+    font-family: 'Amatic SC', sans-serif;
+    font-size:3.5vw;
+    font-weight:bold;
+    padding: 4px;
+    border-radius:50px;
+    color: #28282B;
+}
+
+@media (max-width: 1000px) {
+    .pageTitle {
+        font-size:8.3vw;
+    }
+    .App {
+        padding-top:75px;
+    }
+} 
+
+*{
+    scroll-behavior: smooth;
+}

@@ -1,0 +1,41 @@
+.media {
+    display : flex;
+    flex-direction: column;
+    width: 200px;
+    padding: 5px;
+    margin: 5px 0;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+    box-shadow: 0 3px 8px rgb(0 0 0 / 15%);
+}
+
+.media:hover {
+    background-color: #28282B;
+    color: white;
+}
+
+@media (max-width: 550px) {
+    .media {
+        width: 46%;
+    }
+}
+
+.poster {
+    border-radius:10px;
+}
+
+.title {
+    width: 100%;
+    text-align: center;
+    font-size:17px;
+    padding: 8px 0;
+}
+
+.subtitle {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2px;
+    padding-bottom: 3px;
+}
